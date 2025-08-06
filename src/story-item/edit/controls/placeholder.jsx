@@ -57,6 +57,42 @@ export default function Placeholder({ attributes, setAttributes }) {
 							label: __('Editorial Feature', 'prc-block-library'),
 							value: 'feature',
 						},
+						{
+							label: __('Report', 'prc-block-library'),
+							value: 'report',
+						},
+						{
+							label: __('Resource', 'prc-block-library'),
+							value: 'resource',
+						},
+						{
+							label: __('Brief', 'prc-block-library'),
+							value: 'brief',
+						},
+						{
+							label: __('Signal', 'prc-block-library'),
+							value: 'signal',
+						},
+						{
+							label: __('Artwork', 'prc-block-library'),
+							value: 'artwork',
+						},
+						{
+							label: __('Actor', 'prc-block-library'),
+							value: 'actor',
+						},
+						{
+							label: __('Person', 'prc-block-library'),
+							value: 'person',
+						},
+						{
+							label: __('Location', 'prc-block-library'),
+							value: 'location',
+						},
+						{
+							label: __('Point of interest', 'prc-block-library'),
+							value: 'poi',
+						},
 					]}
 					onChange={(value) => setAttributes({ postType: value })}
 				/>
